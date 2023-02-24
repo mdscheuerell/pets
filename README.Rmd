@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# pets
+
+The goal of pets is to provide a simple means for people to express their feelings about pets. At present, the package only contains one function: `cats()`.
+
+## Installation
+
+You can install the development version of pets like so:
+
+``` r
+if(!require("devtools")) {
+  install.packages("devtools")
+}
+devtools::install_github("FISH549/pets")
+```
+
+## Example
+
+Here are two simple examples that allow you to express your feelings about cats.
+
+```{r example}
+library(pets)
+
+## if you like cats
+cats(TRUE)
+
+## if you don't like cats
+cats(FALSE)
+```
