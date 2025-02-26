@@ -49,6 +49,6 @@ po/*~
 rsconnect/
 .Rproj.user
 inst/doc
-/doc/
+# /doc/
 /Meta/
-docs
+# docs
