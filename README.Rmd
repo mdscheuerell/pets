@@ -22,11 +22,13 @@ The goal of pets is to provide a simple means for people to express their feelin
 
 ## Installation
 
-You can install the development version of pets from [GitHub](https://github.com/) with:
+You can install the development version of pets like so:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("mdscheuerell/pets")
+if(!require("devtools")) {
+  install.packages("devtools")
+}
+devtools::install_github("FISH549/pets")
 ```
 
 ## Example
