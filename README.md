@@ -24,7 +24,8 @@ devtools::install_github("FISH549/pets")
 ## Example
 
 Here are two simple examples that allow you to express your feelings
-about cats.
+about cats. If you are a dog person, please fork this repo and create a
+new function.
 
 ``` r
 library(pets)
